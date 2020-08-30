@@ -159,8 +159,8 @@ class AdminController{
 		if($_SERVER['HTTP_HOST'] == 'localhost'){
 			$redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
 		}else{
- 			// 调用 https://download.99couple.top/ 中转
- 			$redirect_uri = 'https://download.99couple.top/';
+ 			// 调用 https://oneindex.hlan369.com/ 中转
+ 			$redirect_uri = 'https://oneindex.hlan369.com/';
 		}
 		
  		$oauth_url = 'https://login.microsoftonline.com/common/oauth2/authorize';
